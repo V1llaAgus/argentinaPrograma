@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+	<title>Portafolio</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+
+
+
+</head>
+<body>
+		<!--MENU ENCABEZADO -->
+
+<div class="contenedor-header">
+			<header>
+				<div class="logo">
+					<a href="#">Roberta</a>
+				</div>
+				<nav id="nav">
+					<ul>
+						<li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+						<li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+						<li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+						<li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+						<li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+						<li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+				
+					</ul>
+				</nav>	
+					  <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+						 <i class="fa-solid fa-bars"></i>
+					</div>
+				
+			</header>
+		</div>
+
+
+		<!-- SECCION INICIO -->
+		<section id="inicio" class="inicio">
+			<div class="contenido-banner">
+				<div class="contenedor-img">
+					<img id="img1" src="img/Agustin.png" alt="" >				
+				</div>
+				<h1>Roberta Raul</h1>
+				<h2>Desarrollador de Software Novato</h2>
+				<div class="redes">
+					<a href="https://www.instagram.com/v1lla19/"><i class="fa-brands fa-instagram"></i></a>
+					<a href="https://www.facebook.com/profile.php?id=100008457521722"><i class="fa-brands fa-facebook"></i></a>
+					<a href="https://twitter.com/villarruelagus1"><i class="fa-brands fa-square-twitter"></i></a>
+					<a href="https://www.linkedin.com/in/agustin-villarruel-616971255/"><i class="fa-brands fa-linkedin-in"></i></i></a>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- SELECCION SOBRE MI -->
+		<section id="sobremi" class="sobremi">
+			<div class="contenido-seccion">
+				<h2>Sobre Mi</h2>
+				<p><span>Hola, soy Roberto Raul.</span> Soy un persona que le encanta aprender cosas nuevas siempre, me encanta la tecnologia mas de todo las computadoras.Me gusta la programacion con html-css y java aun no aprendo</p>
+
+				<div class="fila">
+					<!-- datos personales -->
+					<div class="col">
+						<h3>Datos Personales</h3>
+						<ul>
+							<li>
+								<strong>Cumpleaños</strong>
+								30-10-2001
+							</li>
+							<li>
+								<strong>Telefono</strong>
+								3537123452
+							</li>
+							<li>
+								<strong>Email</strong>
+								robertoraul@hotmail.com
+							</li>
+							<li>
+								<strong>WebSite</strong>
+								www.ejemplo.com
+							</li>
+							<li>
+								<strong>Direccion</strong>
+								571 chaco - Bell Ville - Cordoba - Argentina
+							</li>
+							<li>
+								<strong>Trabajo</strong>
+								<span>Maquinista(mini pala)</span>
+							</li>
+						</ul>
+
+					</div>
+
+
+					<!-- Intereses -->
+				<div class="col">
+					<h3>Intereses</h3>
+					<div class="contenedor-intereses ">
+						<div class="interes">
+								<i class="fa-solid fa-gamepad"></i>
+									<span>JUEGOS</span>
+							</div>
+							<div class="interes">
+								<i class="fa-solid fa-headphones"></i>
+									<span>MUSICA</span>
+							</div>
+							
+							<div class="interes">
+								<i class="fa-solid fa-plane-departure"></i>
+									<span>VIAJES</span>
+							</div>
+							<div class="interes">
+								<i class="fa-solid fa-futbol"></i>
+									<span>DEPORTE</span>
+							</div>
+
+							<div class="interes">
+								<i class="fa-solid fa-camera-retro"></i>
+									<span>FOTOS</span>
+							</div>
+
+							<div class="interes">
+								<i class="fa-solid fa-car"></i>
+									<span>AUTOS</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<button>	
+					
+					 <a href="download/cvAgustin.pdf" download="Documento">Descargar CV
+					
+					<i class="fa-solid fa-download"></i></a>
+					<span class="overlay"></span>
+					
+
+				</button>
+			</div>		
+		</section>
+
+
+		<!-- SELECCION SKILLS -->
+		<section class="skills" id="skills">
+			<div class="contenido-seccion">
+				<h2>Habilidades</h2>
+				<div class="fila">
+					<!-- Technical Skill -->
+					<div class="col">
+						<h3>Technical Skills</h3>
+						<div class="skill">
+							<span>Javascript</span>
+							<div class="barra-skill">
+								<div class="progreso ">
+									<span>75%</span>
+								</div>
+							</div>													
+						</div>	
+						<div class="skill">
+							<span>HTML & CSS</span>
+							<div class="barra-skill">
+								<div class="progreso ">
+									<span>85%</span>
+								</div>
+							</div>													
+						</div>
+						<div class="skill">
+							<span>Visusal.Net</span>
+							<div class="barra-skill">
+								<div class="progreso">
+									<span>50%</span>
+								</div>
+							</div>													
+						</div>	
+						<div class="skill">
+							<span>SQLServer</span>
+							<div class="barra-skill">
+								<div class="progreso">
+									<span>65%</span>
+								</div>
+							</div>													
+						</div>	
+						<div class="skill">
+							<span>Angular</span>
+							<div class="barra-skill">
+								<div class="progreso">
+									<span>50%</span>
+								</div>
+							</div>													
+						</div>	
+					
+					</div>	
+					<!-- Professional Skill -->
+					<div class="col">
+						<h3>Professional Skill</h3>
+						<div class="skill">
+							<span>Comunicacion</span>
+							<div class="barra-skill">
+								<div class="progreso">
+									<span>80%</span>
+								</div>
+							</div>													
+						</div>	
+						<div class="skill">
+							<span>Trabajo en Equipo</span>
+							<div class="barra-skill">
+								<div class="progreso">
+									<span>95%</span>
+								</div>
+							</div>													
+						</div>
+						<div class="skill">
+							<span>Creatividad</span>
+							<div class="barra-skill">
+								<div class="progreso">
+									<span>85%</span>
+								</div>
+							</div>													
+						</div>	
+						<div class="skill">
+							<span>Dedicacion</span>
+							<div class="barra-skill">
+								<div class="progreso">
+									<span>65%</span>
+								</div>
+							</div>													
+						</div>	
+						<div class="skill">
+							<span>Proyect Management</span>
+							<div class="barra-skill">
+								<div class="progreso">
+									<span>90%</span>
+								</div>
+							</div>													
+						</div>	
+					</div>
+				</div>
+			</div>
+
+		</section>
+
+
+		 <!-- SELECCION CURRICULUM -->
+
+		 <section id="curriculum" class="curriculum">
+		 	<div class="contenido-seccion">
+		 		<h2>Curriculum</h2>
+		 		<div class="fila">
+		 			<div class="col izquierda">
+		 				<h3>Educacion</h3>
+		 				<div class="item izq">
+		 						<h4>Secundario</h4>
+		 						<span class="casa">Polivalente De Arte Martin Malharro </span>
+		 						<span class="fecha"> 2014- 2019 </span>
+		 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		 						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		 						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		 						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		 				
+		 						<div class="conectori">
+		 						<div class="circuloi"></div>
+
+		 						</div> 
+		 				</div>
+		 				<div class="item izq">
+		 						<h4>Secundario</h4>
+		 						<span class="casa">Polivalente De Arte Martin Malharro </span>
+		 						<span class="fecha"> 2014- 2019 </span>
+		 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		 						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		 						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		 						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		 				
+		 						<div class="conectori">
+		 						<div class="circuloi"></div>
+
+		 						</div> 
+		 				</div>
+		 				<div class="item izq">
+		 						<h4>Secundario</h4>
+		 						<span class="casa">Polivalente De Arte Martin Malharro </span>
+		 						<span class="fecha"> 2014- 2019 </span>
+		 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		 						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		 						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		 						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		 				
+		 						<div class="conectori">
+		 						<div class="circuloi"></div>
+
+		 						</div> 
+		 				</div>
+					</div>	
+
+
+					<div class="col derecha">
+		 				<h3>Experiencia de Trabajo</h3>
+		 				<div class="item der">
+		 						<h4>Front Developer</h4>
+		 						<span class="casa">Nombre de compañia </span>
+		 						<span class="fecha"> 2014- 2019 </span>
+		 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		 						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		 						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		 						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		 				
+		 						<div class="conectord">
+		 						<div class="circulod"></div>
+
+		 						</div> 
+		 				</div>
+		 				<div class="item der">
+		 						<h4>Front Developer</h4>
+		 						<span class="casa">Nombre de compañia </span>
+		 						<span class="fecha"> 2014- 2019 </span>
+		 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		 						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		 						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		 						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		 				
+		 						<div class="conectord">
+		 						<div class="circulod"></div>
+
+		 						</div> 
+		 				</div>
+		 				<div class="item der">
+		 						<h4>Front Developer</h4>
+		 						<span class="casa">Nombre de compañia </span>
+		 						<span class="fecha"> 2014- 2019 </span>
+		 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		 						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		 						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		 						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		 				
+		 						<div class="conectord">
+		 						<div class="circulod"></div>
+
+		 						</div> 
+		 				</div>
+		 			
+					</div>	
+
+		 	 	</div>
+		 	</div> 
+		 </section>
+
+
+		  <!-- SELECCION PORTAFOLIO -->
+
+
+<section id="portafolio" class="portafolio">
+		<div class="contenido-seccion">
+			<h2>PORTAFOLIO</h2>
+			<div class="galeria">
+				<div class="proyecto">
+					<img src="img/p1.jpg"  alt="">
+					<div class="overlay">
+						<h3>Diseño Creativo</h3>
+						<p>Fotografia</p>
+					</div>	
+				</div>
+
+				<div class="proyecto">
+					<img src="img/p2.jpg" alt="">
+					<div class="overlay">
+						<h3>Diseño Creativo</h3>
+						<p>Fotografia</p>
+					</div>	
+				</div>
+
+				<div class="proyecto">
+					<img src="img/p3.jpg" alt="">
+					<div class="overlay">
+						<h3>Diseño Creativo</h3>
+						<p>Fotografia</p>
+					</div>	
+				</div>
+
+				<div class="proyecto">
+					<img src="img/p4.jpg" alt="">
+					<div class="overlay">
+						<h3>Diseño Creativo</h3>
+						<p>Fotografia</p>
+					</div>	
+				</div>
+
+				<div class="proyecto">
+					<img src="img/p5.jpg" alt="">
+					<div class="overlay">
+						<h3>Diseño Creativo</h3>
+						<p>Fotografia</p>
+					</div>	
+				</div>
+
+				<div class="proyecto">
+					<img src="img/p6.jpg" alt="">
+					<div class="overlay">
+						<h3>Diseño Creativo</h3>
+						<p>Fotografia</p>
+					</div>	
+				</div>
+			</div>
+		</div>
+
+</section>
+
+ <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+
+			<!-- MAPA-->
+				<div class="col">
+					<img src="img/ubicacion.png" alt="">
+						<div class="info">
+							<ul>
+								<li>
+									 <i class="fa-solid fa-location-dot"></i>
+										 Argentina - Cordoba - Bell ville 
+								</li>
+								<li>
+									<i class="fa-solid fa-mobile-retro"></i>
+										 Llamanos: 3537671589
+								</li>
+								<li>
+									<i class="fa-solid fa-envelope"></i>
+						 			Email: villaruel_agus12@hotmail.com
+								</li>
+
+							</ul>
+					</div>
+				</div>
+
+		</div>
+	</div>
+
+</section>
+
+
+
+<!-- FOOTER -->
+	<footer>
+			<a href="#inicio" class="arriba">
+				<i class="fa-solid fa-angles-up"></i>
+			</a>
+			<div class="redes">
+					<a href="https://www.instagram.com/v1lla19/"><i class="fa-brands fa-instagram"></i></a>
+					<a href="https://www.facebook.com/profile.php?id=100008457521722"><i class="fa-brands fa-facebook"></i></a>
+					<a href="https://twitter.com/villarruelagus1"><i class="fa-brands fa-square-twitter"></i></a>
+					<a href="https://www.linkedin.com/in/agustin-villarruel-616971255/"><i class="fa-brands fa-linkedin-in"></i></i></a>
+				</div>
+
+
+
+
+	</footer>
+
+	<script src="script.js" ></script>
+</body>
+</html>
